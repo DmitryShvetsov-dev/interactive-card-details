@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  background-image: url(./images/bg-main-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 500px 1080px;
+}
+p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  color: hsl(278, 68%, 11%);
+  letter-spacing: 5px;
+}
+.confirm {
+  margin-top: 20px;
+}
+#confirm {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+  font-size: 18px;
+  height: 60px;
+  width: 450px;
+  border-radius: 10px;
+}
+#chnameinput {
+  height: 40px;
+  width: 450px;
+  border-radius: 10px;
+  border: 1px solid hsl(270, 3%, 87%);
+  outline: none;
+}
+#chnameinput:focus {
+  border: 1px solid hsl(278, 68%, 11%);
+}
+#cnumberinput {
+  height: 40px;
+  width: 450px;
+  border-radius: 10px;
+  border: 1px solid hsl(270, 3%, 87%);
+  outline: none;
+}
+#cnumberinput:focus {
+  border: 1px solid hsl(278, 68%, 11%);
+}
+#expmminput {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid hsl(270, 3%, 87%);
+  outline: none;
+}
+#expmminput:focus {
+  border: 1px solid hsl(278, 68%, 11%);
+}
+#expyyinput {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid hsl(270, 3%, 87%);
+  outline: none;
+}
+#expyyinput:focus {
+  border: 1px solid hsl(278, 68%, 11%);
+}
+#cvcinput {
+  height: 40px;
+  width: 190px;
+  border-radius: 10px;
+  border: 1px solid hsl(270, 3%, 87%);
+  outline: none;
+}
+#cvcinput:focus {
+  border: 1px solid hsl(278, 68%, 11%);
+}
+
+.mainbox {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  width: 1450px;
+  display: flex;
+}
+.card {
+  height: 600px;
+  width: 800px;
+}
+.carddata {
+  height: 600px;
+  width: 650px;
+}
+.frontcard {
+  background: url(./images/bg-card-front.png);
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.cardlogo {
+  background-image: url(./images/card-logo.svg);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  background-position-y: center;
+  margin-left: 40px;
+}
+.backcard {
+  margin-left: 90px;
+  background: url(./images/bg-card-back.png);
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.expcvc {
+  display: grid;
+  grid-template-columns: 20% 20% 40%;
+  grid-template-rows: repeat(2, 50px);
+}
+
+.exp {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.cvc {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.expmm {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.expyy {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.cvcinput {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.chname {
+  margin-top: 70px;
+}
+.nnumber {
+  margin-left: 40px;
+}
+#nnumber {
+  color: white;
+  font-size: 27px;
+}
+.nameanddate {
+  display: flex;
+}
+#nname {
+  margin-left: 40px;
+  color: white;
+  font-size: 15px;
+}
+#ddate {
+  margin-left: 120px;
+  color: white;
+  font-size: 15px;
+}
+.marginer {
+  height: 90px;
+}
+#ccvvcc {
+  margin-left: 350px;
+  color: white;
+}
+.error {
+  display: flex;
+}
+#error1 {
+  display: none;
+  margin: 0;
+  color: red;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+#Error2 {
+  display: none;
+  margin: 0;
+  color: red;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+#Error3 {
+  display: none;
+  text-align: center;
+  width: 420px;
+  color: red;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.checkImg {
+  display: none;
+  text-align: center;
+  margin-top: 120px;
+}
+.thankYouLetter {
+  display: none;
+}
+#thx {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.thankYouLetterText {
+  display: none;
+}
+#thxText {
+  text-align: center;
+  color: hsl(279, 6%, 55%);
+}
+.continueButton {
+  display: none;
+}
+#continue {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+  font-size: 18px;
+  height: 60px;
+  width: 450px;
+  border-radius: 10px;
+  margin-left: 100px;
+}

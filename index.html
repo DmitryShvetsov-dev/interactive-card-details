@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive card detais</title>
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="./script.js"></script>
+    <div class="mainbox">
+      <div class="card">
+        <div class="frontcard">
+          <div class="cardlogo"></div>
+          <div class="nnumber"><p id="nnumber">0000 0000 0000 0000</p></div>
+          <div class="nameanddate">
+            <p id="nname">IVAN IVANOVICH</p>
+            <p id="ddate">01/23</p>
+          </div>
+        </div>
+        <div class="backcard">
+          <div class="marginer"></div>
+          <div class="ccvvcc"><p id="ccvvcc">123</p></div>
+        </div>
+      </div>
+      <div class="carddata" id="data_final">
+        <div class="chname" id="chnamediv">
+          <p id="chname">CARDHOLDER NAME</p>
+        </div>
+        <div class="chnameinput" id="chnameinputDiv">
+          <input type="text" id="chnameinput" />
+          <p id="error1">Incorrect card holder name</p>
+        </div>
+        <div class="cnumber" id="cnumberDiv">
+          <p id="cnumber">CARD NUMBER</p>
+        </div>
+        <div class="cnumberinput" id="cnumberinputDiv">
+          <input type="text" id="cnumberinput" />
+          <p id="Error2">Incorrect card number</p>
+        </div>
+        <div class="expcvc" id="expDiv">
+          <div class="exp"><p id="expDate_mmyy">EXP. DATE (MM/YY)</p></div>
+          <div class="cvc"><p id="cvcName">CVC</p></div>
+          <div class="expmm"><input type="text" id="expmminput" /></div>
+          <div class="expyy"><input type="text" id="expyyinput" /></div>
+          <div class="cvcinput"><input type="text" id="cvcinput" /></div>
+        </div>
+        <div class="error">
+          <p id="Error3">Can't be written</p>
+        </div>
+        <div class="confirm" id="confirmButtonDiv">
+          <button id="confirm" onclick="confirm()">Confirm</button>
+        </div>
+        <div class="checkImg" id="completeIcon">
+          <img src="./images/icon-complete.svg" alt="complete" />
+        </div>
+        <div class="thankYouLetter" id="TYLetter">
+          <p id="thx">THANK YOU!</p>
+        </div>
+        <div class="thankYouLetterText" id="TYLetterText">
+          <p id="thxText">We've added your card details</p>
+        </div>
+        <div class="continueButton" id="continueButton">
+          <button id="continue" onClick="history.go(0);">Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
