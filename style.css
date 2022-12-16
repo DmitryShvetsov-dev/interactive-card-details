@@ -327,4 +327,20 @@ p {
   #confirm {
     width: 300px;
   }
+  .checkImg {
+    text-align: start;
+    margin-left: 110px;
+  }
+  #thx {
+    text-align: start;
+    margin-left: 50px;
+  }
+  #thxText {
+    text-align: start;
+    letter-spacing: 1px;
+  }
+  #continue {
+    margin-left: 0;
+    width: 300px;
+  }
 }
