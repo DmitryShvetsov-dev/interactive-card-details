@@ -222,3 +222,109 @@ p {
   border-radius: 10px;
   margin-left: 100px;
 }
+@media (max-width: 1260px) {
+  .card {
+    width: 600px;
+  }
+}
+@media (max-width: 1060px) {
+  .card {
+    width: 510px;
+  }
+  .backcard {
+    margin-left: 0;
+  }
+}
+@media (max-width: 970px) {
+  body {
+    background-size: 970px 500px;
+  }
+  .mainbox {
+    margin-top: 100px;
+    flex-direction: column;
+    width: 600px;
+  }
+  .carddata {
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 10%;
+  }
+  .card {
+    width: 600px;
+    height: 300px;
+    margin-left: 10px;
+  }
+  .backcard {
+    z-index: -1;
+    width: 500px;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+  }
+  #chname {
+    margin-bottom: 0;
+  }
+  #cnumber {
+    margin-bottom: 0;
+  }
+  #expDate_mmyy {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 660px) {
+  body {
+    background-size: 970px 320px;
+  }
+  .frontcard {
+    background-size: 60%;
+  }
+  .backcard {
+    background-size: 60%;
+    left: 100px;
+  }
+  .marginer {
+    height: 50px;
+  }
+  #ccvvcc {
+    margin-left: 210px;
+  }
+  .cardlogo {
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+  }
+  #nnumber {
+    font-size: 18px;
+  }
+  #ddate {
+    margin-left: 50px;
+  }
+  .carddata {
+    margin-top: 0;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 490px) {
+  #chnameinput {
+    width: 300px;
+  }
+  #cnumberinput {
+    width: 300px;
+  }
+  #expmminput {
+    width: 50px;
+  }
+  #expyyinput {
+    width: 50px;
+  }
+  #cvcinput {
+    width: 50px;
+  }
+  .expcvc {
+    grid-template-columns: 20% 20% 30%;
+  }
+  #confirm {
+    width: 300px;
+  }
+}
